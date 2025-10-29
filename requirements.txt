@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+seaborn
+textblob
+vaderSentiment
+praw
+requests
+scikit-learn
+plotly
