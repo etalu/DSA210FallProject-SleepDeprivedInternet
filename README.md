@@ -57,3 +57,5 @@ Everything will be analyzed in groups or averages — never on an individual lev
 ## Notes on AI Tools
 ChatGPT was used as a idea opener, for nothing else.
 All coding, analysis, and interpretation of data will be done by me.
+
+30 November 23:20 Update: Changed from Reddit to X for data collecting due to the nature of the platforms and X being a better one to see everything inside out.
