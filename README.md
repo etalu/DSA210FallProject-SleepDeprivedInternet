@@ -6,30 +6,31 @@ I’ve always been curious if this is just a feeling or if it can actually be se
 In this project, I’ll look at Reddit posts to see whether posts written during the night differ from daytime posts in tone, emotion, or engagement.
 
 ## Data Sources
-- **Main Data:** Reddit posts collected through the Pushshift API (or the Reddit PRAW library).  
-  I plan to collect posts from a few large communities such as:
-  - r/AskReddit  
-  - r/offmychest  
-  - r/Turkey  
-  - r/worldnews  
+- **Main Data:** Public posts on X collected via the X API.
+Focus will be on:
 
-  Each post includes its text, creation time, upvotes, and subreddit name.
+Major public accounts or communities
+Trending topics and hashtags
+Regional or interest-based clusters
+Each post includes: text, timestamp, likes/retweets (engagement), and topic/account  
+
+  Each post includes: text, timestamp
 
 - **Extra Data:**  
   - Sentiment scores from tools like VADER or TextBlob.  
-  - Local time conversion based on subreddit region.  
+  - Local time conversion.  
   - (Optional) Typical sleep hours by region, to compare posting time with common sleep patterns.
 
 ## Project Plan
 | Stage | Goal | Due Date |
 |--------|------|-----------|
 | **1. Proposal** | Create GitHub repo and outline the project | **Oct 31** |
-| **2. Data & EDA** | Collect Reddit posts and analyze patterns by posting time | **Nov 28** |
+| **2. Data & EDA** | Collect X posts and analyze patterns by posting time | **Nov 28** |
 | **3. Machine Learning** | Train a simple model to tell if a post was written at night or day | **Jan 2** |
 | **4. Final Submission** | Complete visuals, write-up, and presentation | **Jan 9** |
 
 ### Steps in Detail
-1. **Collect Data** – Gather Reddit posts with timestamps. Separate “night” posts (00:00–06:00) from “day” posts (08:00–22:00).  
+1. **Collect Data** – Gather X posts with timestamps. Separate “night” posts (00:00–06:00) from “day” posts (08:00–22:00).  
 2. **Clean Data** – Remove spam, bots, and very short posts.  
 3. **EDA** – Compare things like average sentiment, word count, and engagement between day and night.  
 4. **Statistical Tests** – Check if differences are statistically significant (for example, using a t-test).  
@@ -42,14 +43,14 @@ The results might show that the “internet at 3 AM” really is a different pla
 
 ## Tools
 - Python (Pandas, NumPy, Matplotlib, Seaborn)  
-- PRAW or Pushshift API  
+- X API  
 - TextBlob / VADER for sentiment analysis  
 - scikit-learn for ML  
 - Jupyter Notebook  
 - GitHub for version tracking
 
 ## Ethics
-Only public Reddit data will be used.  
+Only public X data will be used.  
 No usernames or personal information will appear anywhere in the analysis.  
 Everything will be analyzed in groups or averages — never on an individual level.
 
