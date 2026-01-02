@@ -2,9 +2,5 @@ pandas
 numpy
 matplotlib
 seaborn
-textblob
-vaderSentiment
-praw
-requests
+scipy
 scikit-learn
-plotly
